@@ -12,7 +12,7 @@ pipeline {
 
               bat '''
               cd "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\bin"
-              mdrv.exe -usr "BlazeDemo_1\\Correlation_Challenge_1.usr" 
+              mdrv.exe -usr "**/Correlation_Challenge_1.usr" 
               '''
             }
         }
