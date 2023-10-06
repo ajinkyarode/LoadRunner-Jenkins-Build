@@ -9,6 +9,15 @@ pipeline {
         }
         stage('Execute LoadRunner Test') {
             steps {
+
+                def workspace = WORKSPACE
+    
+                workspace = env.WORKSPACE
+    
+                echo "Current workspace is ${env.WORKSPACE}"
+
+        
+                echo "Current workspace is $WORKSPACE"
               bat '''
               cd "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\bin"
               mdrv.exe -usr "\\BlazeDemo_1\\Correlation_Challenge_1.usr" 
