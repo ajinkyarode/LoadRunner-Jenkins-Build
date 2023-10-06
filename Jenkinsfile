@@ -10,7 +10,8 @@ pipeline {
         stage('Execute LoadRunner Test') {
             steps {
               bat '''
-              C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\bin\\mdrv.exe -usr Correlation_Challenge_1.usr
+              cd C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\bin
+              mdrv.exe -usr Correlation_Challenge_1.usr
               '''
             }
         }
