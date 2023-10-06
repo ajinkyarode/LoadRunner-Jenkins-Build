@@ -1,0 +1,45 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 9/24/2023 5:15:36 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2022.1.0 for Windows 10; build 448 (Jun 14 2022 12:19:54)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\ajink\Downloads\BlazeDemo_1\\default.cfg"  	[MsgId: MMSG-27141]
+Warning: Failed to get NV emulation handle.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.js(11): web.regSaveParamRegexp started  	[MsgId: MMSG-26355]
+Action.js(11): Registering web.regSaveParamRegexp was successful  	[MsgId: MMSG-26390]
+Action.js(12): web.regSaveParamRegexp started  	[MsgId: MMSG-26355]
+Action.js(12): Registering web.regSaveParamRegexp was successful  	[MsgId: MMSG-26390]
+Action.js(13): web.customRequest("loadPage") started  	[MsgId: MMSG-26355]
+Action.js(13): web.customRequest("loadPage") was successful, 1834 body bytes, 420 header bytes, 205 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.js(29): web.regSaveParamAttrib started  	[MsgId: MMSG-26355]
+Action.js(29): Registering web.regSaveParamAttrib was successful  	[MsgId: MMSG-26390]
+Action.js(30): web.regSaveParamAttrib started  	[MsgId: MMSG-26355]
+Action.js(30): Registering web.regSaveParamAttrib was successful  	[MsgId: MMSG-26390]
+Action.js(31): web.regSaveParamAttrib started  	[MsgId: MMSG-26355]
+Action.js(31): Registering web.regSaveParamAttrib was successful  	[MsgId: MMSG-26390]
+Action.js(32): web.getIntProperty started  	[MsgId: MMSG-26355]
+Action.js(32): web.getIntProperty was successful  	[MsgId: MMSG-26392]
+Action.js(32): 200
+Action.js(33): web.customRequest("reserve") started  	[MsgId: MMSG-26355]
+Action.js(33): web.customRequest("reserve") was successful, 1921 body bytes, 313 header bytes, 69 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.js(44): web.customRequest("purchase") started  	[MsgId: MMSG-26355]
+Action.js(44): web.customRequest("purchase") was successful, 2115 body bytes, 313 header bytes, 223 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.js(55): web.customRequest("confirmation") started  	[MsgId: MMSG-26355]
+Action.js(55): web.customRequest("confirmation") was successful, 1923 body bytes, 313 header bytes, 139 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.js(66): web.customRequest("index") started  	[MsgId: MMSG-26355]
+Action.js(66): web.customRequest("index") was successful, 1834 body bytes, 313 header bytes, 203 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,13 @@
+[t7]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=text/html
+StepName=Custom Request: reserve
+Total=1
+FileName1=t7.html
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=reserve
+RequestBodyFile=t7_RequestBody.txt
+RawStepStartTime=1695590208892
+URL1=https://blazedemo.com/reserve.php

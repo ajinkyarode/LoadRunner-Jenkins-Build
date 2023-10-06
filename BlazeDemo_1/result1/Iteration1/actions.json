@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: loadPage",
+                "infFile": "t3.inf",
+                "time": 1695590208749
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: reserve",
+                "infFile": "t7.inf",
+                "time": 1695590209086
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: purchase",
+                "infFile": "t8.inf",
+                "time": 1695590209377
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: confirmation",
+                "infFile": "t9.inf",
+                "time": 1695590209581
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: index",
+                "infFile": "t10.inf",
+                "time": 1695590209764
+            }
+        ],
+        "transactions": []
+    }
+]

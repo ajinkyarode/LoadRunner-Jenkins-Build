@@ -1,0 +1,18 @@
+POST https://blazedemo.com/purchase.php HTTP/1.1
+Host: blazedemo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 75
+Origin: https://blazedemo.com
+Connection: keep-alive
+Referer: https://blazedemo.com/reserve.php
+Cookie: prodperfect_session={%22session_uuid%22:%22ef6daf03-1d3e-4a70-950b-df3c68bd22bc%22}; keen={%22uuid%22:%226a090324-ce93-4f06-9628-ee620599b472%22%2C%22initialReferrer%22:%22https://blazedemo.com/%22}
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+

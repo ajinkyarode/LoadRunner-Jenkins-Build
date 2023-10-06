@@ -1,0 +1,34 @@
+[API Trapper      (b01c:ab50)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\HP.LR.SazParser.exe
+[Network Analyzer (b01c:ab50)] ------------------------------------------------------------------------------------------
+[Network Analyzer (b01c:ab50)] Load Network Traffic Analyzers:
+[Network Analyzer (b01c:ab50)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (b01c:ab50)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (b01c:ab50)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (b01c:ab50)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (b01c:ab50)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (b01c:ab50)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (b01c:ab50)]     Analyzer Module: local_server (value=)
+[Network Analyzer (b01c:ab50)] ------------------------------------------------------------------------------------------
+[Web Request      (b01c:ab50)] "GET https://blazedemo.com/"   
+[Network Analyzer (b01c:ab50)]   (Sid:  1) Client -> Server @ : 674 bytes (SSL)(Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  1) Server -> Client : 313 bytes (SSL) (Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  1) Server -> Client : 2053 bytes (SSL) (Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  2) Client -> Server @ : 826 bytes (SSL)(Service=HTTP)
+[Web Request      (b01c:ab50)] "POST https://blazedemo.com/reserve.php"   
+[Network Analyzer (b01c:ab50)]   (Sid:  2) Client -> Server @ : 29 bytes (SSL)(Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  2) Server -> Client : 313 bytes (SSL) (Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  2) Server -> Client : 1947 bytes (SSL) (Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  3) Client -> Server @ : 838 bytes (SSL)(Service=HTTP)
+[Web Request      (b01c:ab50)] "POST https://blazedemo.com/purchase.php"   
+[Network Analyzer (b01c:ab50)]   (Sid:  3) Client -> Server @ : 75 bytes (SSL)(Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  3) Server -> Client : 313 bytes (SSL) (Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  3) Server -> Client : 2284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  4) Client -> Server @ : 844 bytes (SSL)(Service=HTTP)
+[Web Request      (b01c:ab50)] "POST https://blazedemo.com/confirmation.php"   
+[Network Analyzer (b01c:ab50)]   (Sid:  4) Client -> Server @ : 167 bytes (SSL)(Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  4) Server -> Client : 283 bytes (SSL) (Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  4) Server -> Client : 5497 bytes (SSL) (Service=HTTP)
+[Web Request      (b01c:ab50)] "GET https://blazedemo.com/index.php"   
+[Network Analyzer (b01c:ab50)]   (Sid:  5) Client -> Server @ : 739 bytes (SSL)(Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  5) Server -> Client : 283 bytes (SSL) (Service=HTTP)
+[Network Analyzer (b01c:ab50)]   (Sid:  5) Server -> Client : 4474 bytes (SSL) (Service=HTTP)
