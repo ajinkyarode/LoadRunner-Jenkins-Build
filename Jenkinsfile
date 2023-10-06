@@ -10,7 +10,7 @@ pipeline {
         stage('Execute LoadRunner Test') {
             steps {
               bat '''
-              cd "cd C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\bin"
+              cd "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\bin"
               mdrv.exe -usr C:\\Users\\ajink\\Downloads\\Correlation_Challenge_1\\Correlation_Challenge_1.usr
               '''
             }
