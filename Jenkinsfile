@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                echo "Cloning Repo..."
+                echo "Cloning Repo...."
                 git branch: 'main', credentialsId: '91ddaf27-3c31-43a0-b7cd-39ec5e4a248f', url: 'https://github.com/ajinkyarode/LoadRunner-Jenkins-Build.git'
             }
         }
